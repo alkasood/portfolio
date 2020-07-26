@@ -1,0 +1,237 @@
+body {
+  background-color: #f4f4f4;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #7f7f7f;
+  height: 100%;
+  position: relative;
+}
+
+nav.opac {
+  opacity: 0.9!important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #57f957;
+  transition: ease-in 03s;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #57f957;
+}
+
+.robotoFont {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: lighter;
+}
+
+.letterSpacing {
+  letter-spacing: 0.89px;
+}
+
+#home-section {
+  background: url(../img/01-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+#home-section .home-inner {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 68px;
+}
+
+#home-section .home-inner h1 {
+  font-size: 62px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: aliceblue;
+}
+
+#home-section .home-inner .headPara {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#home-section .home-inner a.btn {
+  transition: 0.5s;
+  color: #fff;
+}
+
+#home-section .home-inner a.btn:hover {
+  background-color: #17a2b8;
+  color: white;
+  transition: 0.5s;
+}
+
+#about-section {
+  background-color: #7203fb;
+  color: #fff;
+}
+
+#about-section .bgHeader, #services-section .bgHeader, .skillsBlue .bgHeader {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+}
+
+#services-section {
+  background-color: #16E9BB;
+  min-height: 400px;
+  color: #fff;
+}
+
+.blockquote {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#aboutPage {
+  background-color: #00474D;
+}
+
+#aboutPage h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+/*Skills Page */
+#skills {
+  min-height: 400px;
+}
+
+#skills-section .bgHeader {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #222;
+  text-align: center;
+}
+
+.titleAnc h3 {
+  font-size: 160px;
+  color: #e2e1e1;
+  font-weight: 900;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+#skills h2 {
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 2.67px;
+  text-decoration: none;
+}
+
+.skillsBlue {
+  min-height: 400px;
+  background-color: #00326f;
+  background-image: url('../img/pattern.jpg');
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+
+.skillsBlue h2 {
+  color: #026b54;
+  font-weight: 100;
+  ;
+  font-family: 'Roboto', sans-serif;
+}
+
+.skillsBlue .bgHeader h2 {
+  font-weight: 700;
+}
+
+.skillsBlue .robotoFont {
+  font-weight: 300;
+  letter-spacing: 0.50px;
+  font-size: 18px;
+}
+
+
+/*Resume Page*/
+#resumePage {
+  background-color: #dcdddd;
+  min-height: 750px;
+  color: #222;
+}
+
+#resumePage .titleAnc h1 {
+  font-size: 160px;
+  color: #eceded;
+  font-weight: 900;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.titleAnc h4 {
+  letter-spacing: 2.50px;
+  padding-left: 14px;
+}
+
+.navbar-dark .navbar-nav .nav-link.linkBack {
+  border-bottom: 2px solid #ffc107!important;
+}
+
+#showcase {
+  position: relative;
+  background: url("../img/resumeBannerBehind.webp");
+  min-height: 570px;
+  font-family: 'Roboto', sans-serif;
+  ;
+}
+
+#showcase .primary-overlay {
+  background: rgba(50, 146, 166, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#showcase h1 {
+  font-weight: 700 !important;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+/* portfolio resume section  */
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+}
+
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.tabular.btn.focus, .tabular.btn:focus {
+  box-shadow: none !important;
+  color: #16E9BB !important;
+}
+
+#getintouch {
+  text-align: center;
+}
+  
+

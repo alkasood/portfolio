@@ -1,0 +1,83 @@
+#fh5co-pricing-section {
+    padding: 7em 0;
+    background: #fcfcfc;
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-pricing-section {
+      padding: 3em 0;
+    }
+  }
+  #fh5co-pricing-section .pricing {
+    display: block;
+    float: left;
+    margin-bottom: 30px;
+  }
+  #fh5co-pricing-section .price-box {
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    margin-bottom: 40px;
+    position: relative;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+    top: 2px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #fh5co-pricing-section .price-box.popular .btn-select-plan {
+    background: #27E1CE;
+  }
+  #fh5co-pricing-section .price-box.popular .price {
+    color: #27E1CE;
+  }
+  #fh5co-pricing-section .price-box .btn-select-plan {
+    padding: 10px 20px;
+    background: #5bc0de;
+    color: #fff;
+  }
+  #fh5co-pricing-section .price-box:hover, #fh5co-pricing-section .price-box:focus {
+    -webkit-box-shadow: 0px 14px 25px -2px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 14px 25px -2px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 14px 25px -2px rgba(0, 0, 0, 0.14);
+    top: -2px;
+  }
+  #fh5co-pricing-section .pricing-plan {
+    margin: 0 0 50px 0;
+    padding: 0;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #888f94;
+  }
+  #fh5co-pricing-section .pricing-plan.pricing-plan-offer {
+    margin-bottom: 24px;
+  }
+  #fh5co-pricing-section .pricing-plan span {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #d5d8db;
+  }
+  #fh5co-pricing-section .price {
+    font-size: 72px;
+    color: #6d6d6d;
+    line-height: 50px;
+  }
+  #fh5co-pricing-section .price .currency {
+    font-size: 30px;
+    top: -0.9em;
+    padding-right: 10px;
+  }
+  #fh5co-pricing-section .price small {
+    font-size: 13px;
+    display: block;
+    text-transform: uppercase;
+    color: #888f94;
+  }
+  
+  .fh5co-light-grey-section {
+    background: rgba(0, 0, 0, 0.03) !important;
+  }

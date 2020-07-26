@@ -1,0 +1,387 @@
+
+   /* Portrait Small */
+   @media only screen and (min-width: 320px) and (max-width: 567px) {
+    
+    body {
+      border: 1px solid #FF0066;
+    }
+    .titleAnc h3{
+        font-size: 77px;
+    }
+    #home-section{
+        
+        min-height: 388px;
+        background-position: top center !important;
+    }
+    #home-section .d-none{
+        display: block !important;
+    }
+    #home-section .home-inner h1{
+        font-size: 27px;
+    }
+    #home-section .home-inner{
+        padding-top: 30px;
+    }
+    #home-section .home-inner .headPara{
+        font-size: 16px;
+        padding: 4px !important;
+    }
+    #home-section .home-inner span{
+        font-size: 12px;
+    }
+    .quoteSection blockquote { 
+        margin:0px 20px;
+        font-size: 24px;;
+    }
+    .titleAnc p{
+        font-size: 24px;
+    }
+    #skills{
+        min-height: 415px;
+    }
+    #skills-section .bgHeader h1, .bgAboutHeader h1, .skillsBlue .bgHeader h1 {
+        font-size: 38px !important;
+    }
+    .bgAboutHeader p{
+        font-size: 18px;
+    }
+
+    #showcase {
+      min-height: 315px;
+    }
+      
+    #showcase h1, #companyExperience h3 {
+      font-size: 33px;
+    }
+  
+    #showcase .blockquote p {
+      font-size: 22px !important;
+    }
+    
+    .section.site-portfolio h3 {
+      font-size: 38px;
+    }
+  
+    .panel-group.timeline .timeline-item .panel {
+      margin-top: 0px !important;
+    }
+  
+    .panel-group.timeline .timeline-item .timeline-btn {
+      left: 0px;
+    }
+  
+    .panel-group.timeline .timeline-item .timeline-year {
+      margin-bottom: 0px;
+      margin-right: auto;
+      margin-left: 24px;
+      line-height: normal;
+      margin-top: -9px;
+      text-align: left!important;
+    }
+  
+    .panel-group.timeline .timeline-item .panel .panel-heading .panel-title h4 {
+      font-size: 20px;
+    }
+    #getintouch h1{ font-size: 26px;}
+    #getintouch p{ font-size: medium;}
+
+  } 
+
+  /* Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 568px) and (max-width:766px) {                                                   
+    body {
+      border: 1px solid #3d07ff;
+    }
+    #navbarCollapse{ 
+        float: right;
+    }
+    .container {
+        max-width: 565px;
+    }
+    .quoteSection blockquote { margin:0px 20px;}
+    .skillWidth1,.skillWidth2 {
+      width: 100%;
+    }
+  
+    #home-section {
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 360px;
+    }
+  
+    #home-section .home-inner {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  
+    #home-section .home-inner .d-none {
+      display: block !important;
+    }
+  
+    #home-section .home-inner h1 {
+      font-size: 58px;
+      color: aliceblue;
+    }
+  
+    #home-section .home-inner .headPara {
+      margin-bottom: 0px;
+      font-size: 20px;
+    }
+   
+  
+    .progress {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .serviceBox {
+      padding: 0px 24px 40px;
+    }
+  
+    .serviceBox .title {
+      font-size: 17px;
+    }
+    #showcase{
+        min-height: 370px;
+    }
+    #showcase h1 {
+        font-size: 71px;
+      }
+    
+    #showcase .blockquote p {
+        font-size: 30px ;
+    }
+    #companyExperience h3{
+        font-size: 41px;
+    }
+    .panel-group.timeline .timeline-item .panel {
+        margin-top: 70px ;
+        width: 100%;
+        margin-left:0px;
+      }
+    
+    .panel-group.timeline .timeline-item .timeline-btn {
+        left: 0px;
+        top: -46px;
+      }
+
+    .panel-group.timeline .timeline-item .timeline-year {
+        position: absolute;
+        top: -20px;
+        left: 28px;
+        margin: 0;
+        width: 247px;
+        text-align: left;
+    }
+    
+    .panel-group.timeline .timeline-item .panel .panel-heading .panel-title h4 {
+        font-size: 20px;
+    }
+   
+    .mb-resp h3 {
+      font-size: 17px;
+    }
+    .section.site-portfolio h3 {
+        font-size: 41px;
+      }
+  }
+  @media (min-width: 577px) and (max-width:766px) { 
+
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+  }
+  .container{ 
+      width:577px;
+    }
+ }
+
+ @media screen and (min-width: 767px) and (max-width: 991px) {
+    body {
+      border: 1px solid #ffc107;
+    }
+    .container {
+        max-width: 694px;
+    }
+    #about .card-body{
+        padding: 17px;
+    }
+    .skillWidth1, .skillWidth2 {
+      width: 100%;
+    }
+  
+    #home-section {
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 360px;
+    }
+  
+    #home-section .home-inner {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  
+    #home-section .home-inner .d-none {
+      display: block !important;
+    }
+  
+    #home-section .home-inner h1 {
+      font-size: 58px;
+      color: aliceblue;
+    }
+  
+    #home-section .home-inner .headPara {
+      margin-bottom: 0px;
+      font-size: 20px;
+    }
+    #companyExperience h3, .site-portfolio h3{
+        font-size: 52px;
+    }
+    
+    .progress {
+        width: 150px;
+        height: 150px;
+      }
+  
+    .serviceBox {
+      padding: 0px 24px 40px;
+    }
+  
+    .serviceBox .title {
+      font-size: 17px;
+    }
+  
+    #showcase {
+      min-height: 390px;
+    }
+  
+    .mb-resp h3 {
+      font-size: 17px;
+    }
+    .panel-group.timeline .timeline-item .timeline-btn{
+        left: 89px;
+    }
+    .panel-group.timeline .timeline-item .timeline-year{
+        top: 23px;
+        left: -6px;
+        margin: 0;
+        font-size: 13px;
+        text-align: right !important;
+    }
+    .titleAnc p{ 
+        font-size: 28px;
+        margin-top: 34px !important;
+    }
+  }
+
+ 
+  @media screen and  (min-width:991px) and (max-width:1023px) {
+   
+    body {
+      border: 1px solid #b6088a;
+    }
+  
+    .skillWidth1,.skillWidth2 {
+      width: 100%;
+    }
+  
+    #home-section {
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 360px;
+    }
+  
+    #home-section .home-inner {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  
+    #home-section .home-inner .d-none {
+      display: block !important;
+    }
+  
+    #home-section .home-inner h1 {
+      font-size: 58px;
+      color: aliceblue;
+    }
+  
+    #home-section .home-inner .headPara {
+      margin-bottom: 0px;
+      font-size: 20px;
+    }
+  
+    .serviceBox {
+      padding: 0px 24px 40px;
+    }
+  
+    .serviceBox .title {
+      font-size: 16px;
+    }
+    .serviceBox .description{
+        font-size: 16px;
+    }
+  
+    #showcase {
+      min-height: 475px;
+    }
+    #showcase h1 {
+        font-size: 71px;
+      }
+    
+    #showcase .blockquote p {
+        font-size: 30px ;
+    }
+    .mb-resp h3 {
+      font-size: 17px;
+    }
+    .progress {
+        width: 135px;
+        height:135px;
+      }
+    
+      
+  }
+   
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 1024px) and (max-width:1280px) {
+
+    body {
+      border: 1px solid #08eb94;
+    }
+    #showcase { 
+        min-height: 475px !important;
+    }
+    #showcase h1 {
+        font-size: 71px;
+      }
+    
+    #showcase .blockquote p {
+        font-size: 30px ;
+    }
+    #about .card-body{
+        padding: 17px;
+    }
+  }
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 1200px) and (max-width:1280px) {
+
+    #showcase { 
+        min-height:570px !important;
+    }
+    #showcase h1 {
+        font-size: 89px;
+      }
+    
+    #showcase .blockquote p {
+        font-size: 32px ;
+        margin-top:30px;
+    }
+  }
+  
+  
+    
+    
+    
+    
+     
